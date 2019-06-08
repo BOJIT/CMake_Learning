@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named binary
+# Target rules for targets named binary.exe
 
 # Build rule for target.
-binary: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 binary
-.PHONY : binary
+binary.exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 binary.exe
+.PHONY : binary.exe
 
 # fast build rule for target.
-binary/fast:
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/build
-.PHONY : binary/fast
+binary.exe/fast:
+	$(MAKE) -f CMakeFiles/binary.exe.dir/build.make CMakeFiles/binary.exe.dir/build
+.PHONY : binary.exe/fast
 
 #=============================================================================
 # Target rules for targets named logger
@@ -142,7 +142,7 @@ src/game_engine.o: src/game_engine.cpp.o
 
 # target to build an object file
 src/game_engine.cpp.o:
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/game_engine.cpp.o
+	$(MAKE) -f CMakeFiles/binary.exe.dir/build.make CMakeFiles/binary.exe.dir/src/game_engine.cpp.o
 .PHONY : src/game_engine.cpp.o
 
 src/game_engine.i: src/game_engine.cpp.i
@@ -151,7 +151,7 @@ src/game_engine.i: src/game_engine.cpp.i
 
 # target to preprocess a source file
 src/game_engine.cpp.i:
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/game_engine.cpp.i
+	$(MAKE) -f CMakeFiles/binary.exe.dir/build.make CMakeFiles/binary.exe.dir/src/game_engine.cpp.i
 .PHONY : src/game_engine.cpp.i
 
 src/game_engine.s: src/game_engine.cpp.s
@@ -160,7 +160,7 @@ src/game_engine.s: src/game_engine.cpp.s
 
 # target to generate assembly for a file
 src/game_engine.cpp.s:
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/game_engine.cpp.s
+	$(MAKE) -f CMakeFiles/binary.exe.dir/build.make CMakeFiles/binary.exe.dir/src/game_engine.cpp.s
 .PHONY : src/game_engine.cpp.s
 
 src/game_interface.o: src/game_interface.cpp.o
@@ -169,7 +169,7 @@ src/game_interface.o: src/game_interface.cpp.o
 
 # target to build an object file
 src/game_interface.cpp.o:
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/game_interface.cpp.o
+	$(MAKE) -f CMakeFiles/binary.exe.dir/build.make CMakeFiles/binary.exe.dir/src/game_interface.cpp.o
 .PHONY : src/game_interface.cpp.o
 
 src/game_interface.i: src/game_interface.cpp.i
@@ -178,7 +178,7 @@ src/game_interface.i: src/game_interface.cpp.i
 
 # target to preprocess a source file
 src/game_interface.cpp.i:
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/game_interface.cpp.i
+	$(MAKE) -f CMakeFiles/binary.exe.dir/build.make CMakeFiles/binary.exe.dir/src/game_interface.cpp.i
 .PHONY : src/game_interface.cpp.i
 
 src/game_interface.s: src/game_interface.cpp.s
@@ -187,7 +187,7 @@ src/game_interface.s: src/game_interface.cpp.s
 
 # target to generate assembly for a file
 src/game_interface.cpp.s:
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/game_interface.cpp.s
+	$(MAKE) -f CMakeFiles/binary.exe.dir/build.make CMakeFiles/binary.exe.dir/src/game_interface.cpp.s
 .PHONY : src/game_interface.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -196,7 +196,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/binary.exe.dir/build.make CMakeFiles/binary.exe.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -205,7 +205,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/binary.exe.dir/build.make CMakeFiles/binary.exe.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -214,7 +214,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/binary.exe.dir/build.make CMakeFiles/binary.exe.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -224,7 +224,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... binary"
+	@echo "... binary.exe"
 	@echo "... edit_cache"
 	@echo "... logger"
 	@echo "... src/game_engine.o"

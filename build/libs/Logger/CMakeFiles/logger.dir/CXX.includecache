@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/humble_d/Projects/Sandbox/sample_cmake/libs/Logger/src/logger_util.cpp
+/mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/libs/Logger/src/logger_util.cpp
 iostream
 -
 string
