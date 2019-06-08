@@ -4,8 +4,6 @@ project( sample_cmake )
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ../bin/${CMAKE_SYSTEM_PROCESSOR}_${CMAKE_SYSTEM_NAME})
 
-# flags
-
 # include files
 include_directories( ./include ./src ./libs/Logger/include ./libs/Randomize/include )
 
