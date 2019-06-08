@@ -1,4 +1,4 @@
-# Install script for directory: /home/humble_d/Projects/Sandbox/sample_cmake
+# Install script for directory: /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/humble_d/Projects/Sandbox/sample_cmake/build/libs/Logger/cmake_install.cmake")
+  include("/mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build/libs/Logger/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/humble_d/Projects/Sandbox/sample_cmake/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

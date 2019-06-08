@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/humble_d/Projects/Sandbox/sample_cmake
+CMAKE_SOURCE_DIR = /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/humble_d/Projects/Sandbox/sample_cmake/build
+CMAKE_BINARY_DIR = /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/humble_d/Projects/Sandbox/sample_cmake/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/humble_d/Projects/Sandbox/sample_cmake/build/CMakeFiles /home/humble_d/Projects/Sandbox/sample_cmake/build/libs/Logger/CMakeFiles/progress.marks
-	cd /home/humble_d/Projects/Sandbox/sample_cmake/build && $(MAKE) -f CMakeFiles/Makefile2 libs/Logger/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/humble_d/Projects/Sandbox/sample_cmake/build/CMakeFiles 0
+	cd /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build/CMakeFiles /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build/libs/Logger/CMakeFiles/progress.marks
+	cd /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build && $(MAKE) -f CMakeFiles/Makefile2 libs/Logger/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/humble_d/Projects/Sandbox/sample_cmake/build && $(MAKE) -f CMakeFiles/Makefile2 libs/Logger/clean
+	cd /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build && $(MAKE) -f CMakeFiles/Makefile2 libs/Logger/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/humble_d/Projects/Sandbox/sample_cmake/build && $(MAKE) -f CMakeFiles/Makefile2 libs/Logger/preinstall
+	cd /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build && $(MAKE) -f CMakeFiles/Makefile2 libs/Logger/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/humble_d/Projects/Sandbox/sample_cmake/build && $(MAKE) -f CMakeFiles/Makefile2 libs/Logger/preinstall
+	cd /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build && $(MAKE) -f CMakeFiles/Makefile2 libs/Logger/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/humble_d/Projects/Sandbox/sample_cmake/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libs/Logger/CMakeFiles/logger.dir/rule:
-	cd /home/humble_d/Projects/Sandbox/sample_cmake/build && $(MAKE) -f CMakeFiles/Makefile2 libs/Logger/CMakeFiles/logger.dir/rule
+	cd /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build && $(MAKE) -f CMakeFiles/Makefile2 libs/Logger/CMakeFiles/logger.dir/rule
 .PHONY : libs/Logger/CMakeFiles/logger.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ logger: libs/Logger/CMakeFiles/logger.dir/rule
 
 # fast build rule for target.
 logger/fast:
-	cd /home/humble_d/Projects/Sandbox/sample_cmake/build && $(MAKE) -f libs/Logger/CMakeFiles/logger.dir/build.make libs/Logger/CMakeFiles/logger.dir/build
+	cd /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build && $(MAKE) -f libs/Logger/CMakeFiles/logger.dir/build.make libs/Logger/CMakeFiles/logger.dir/build
 .PHONY : logger/fast
 
 src/logger_util.o: src/logger_util.cpp.o
@@ -131,7 +131,7 @@ src/logger_util.o: src/logger_util.cpp.o
 
 # target to build an object file
 src/logger_util.cpp.o:
-	cd /home/humble_d/Projects/Sandbox/sample_cmake/build && $(MAKE) -f libs/Logger/CMakeFiles/logger.dir/build.make libs/Logger/CMakeFiles/logger.dir/src/logger_util.cpp.o
+	cd /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build && $(MAKE) -f libs/Logger/CMakeFiles/logger.dir/build.make libs/Logger/CMakeFiles/logger.dir/src/logger_util.cpp.o
 .PHONY : src/logger_util.cpp.o
 
 src/logger_util.i: src/logger_util.cpp.i
@@ -140,7 +140,7 @@ src/logger_util.i: src/logger_util.cpp.i
 
 # target to preprocess a source file
 src/logger_util.cpp.i:
-	cd /home/humble_d/Projects/Sandbox/sample_cmake/build && $(MAKE) -f libs/Logger/CMakeFiles/logger.dir/build.make libs/Logger/CMakeFiles/logger.dir/src/logger_util.cpp.i
+	cd /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build && $(MAKE) -f libs/Logger/CMakeFiles/logger.dir/build.make libs/Logger/CMakeFiles/logger.dir/src/logger_util.cpp.i
 .PHONY : src/logger_util.cpp.i
 
 src/logger_util.s: src/logger_util.cpp.s
@@ -149,7 +149,7 @@ src/logger_util.s: src/logger_util.cpp.s
 
 # target to generate assembly for a file
 src/logger_util.cpp.s:
-	cd /home/humble_d/Projects/Sandbox/sample_cmake/build && $(MAKE) -f libs/Logger/CMakeFiles/logger.dir/build.make libs/Logger/CMakeFiles/logger.dir/src/logger_util.cpp.s
+	cd /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build && $(MAKE) -f libs/Logger/CMakeFiles/logger.dir/build.make libs/Logger/CMakeFiles/logger.dir/src/logger_util.cpp.s
 .PHONY : src/logger_util.cpp.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/humble_d/Projects/Sandbox/sample_cmake/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

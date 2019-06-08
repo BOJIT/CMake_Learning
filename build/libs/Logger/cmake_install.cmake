@@ -1,4 +1,4 @@
-# Install script for directory: /home/humble_d/Projects/Sandbox/sample_cmake/libs/Logger
+# Install script for directory: /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/libs/Logger
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

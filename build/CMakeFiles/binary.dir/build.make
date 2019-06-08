@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/humble_d/Projects/Sandbox/sample_cmake
+CMAKE_SOURCE_DIR = /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/humble_d/Projects/Sandbox/sample_cmake/build
+CMAKE_BINARY_DIR = /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/binary.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/binary.dir/flags.make
 
 CMakeFiles/binary.dir/src/main.cpp.o: CMakeFiles/binary.dir/flags.make
 CMakeFiles/binary.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humble_d/Projects/Sandbox/sample_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/binary.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/binary.dir/src/main.cpp.o -c /home/humble_d/Projects/Sandbox/sample_cmake/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/binary.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/binary.dir/src/main.cpp.o -c /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/src/main.cpp
 
 CMakeFiles/binary.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/binary.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/humble_d/Projects/Sandbox/sample_cmake/src/main.cpp > CMakeFiles/binary.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/src/main.cpp > CMakeFiles/binary.dir/src/main.cpp.i
 
 CMakeFiles/binary.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/binary.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/humble_d/Projects/Sandbox/sample_cmake/src/main.cpp -o CMakeFiles/binary.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/src/main.cpp -o CMakeFiles/binary.dir/src/main.cpp.s
 
 CMakeFiles/binary.dir/src/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/binary.dir/src/main.cpp.o.provides.build: CMakeFiles/binary.dir/src/m
 
 CMakeFiles/binary.dir/src/game_engine.cpp.o: CMakeFiles/binary.dir/flags.make
 CMakeFiles/binary.dir/src/game_engine.cpp.o: ../src/game_engine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humble_d/Projects/Sandbox/sample_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/binary.dir/src/game_engine.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/binary.dir/src/game_engine.cpp.o -c /home/humble_d/Projects/Sandbox/sample_cmake/src/game_engine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/binary.dir/src/game_engine.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/binary.dir/src/game_engine.cpp.o -c /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/src/game_engine.cpp
 
 CMakeFiles/binary.dir/src/game_engine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/binary.dir/src/game_engine.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/humble_d/Projects/Sandbox/sample_cmake/src/game_engine.cpp > CMakeFiles/binary.dir/src/game_engine.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/src/game_engine.cpp > CMakeFiles/binary.dir/src/game_engine.cpp.i
 
 CMakeFiles/binary.dir/src/game_engine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/binary.dir/src/game_engine.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/humble_d/Projects/Sandbox/sample_cmake/src/game_engine.cpp -o CMakeFiles/binary.dir/src/game_engine.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/src/game_engine.cpp -o CMakeFiles/binary.dir/src/game_engine.cpp.s
 
 CMakeFiles/binary.dir/src/game_engine.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/binary.dir/src/game_engine.cpp.o.provides.build: CMakeFiles/binary.di
 
 CMakeFiles/binary.dir/src/game_interface.cpp.o: CMakeFiles/binary.dir/flags.make
 CMakeFiles/binary.dir/src/game_interface.cpp.o: ../src/game_interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/humble_d/Projects/Sandbox/sample_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/binary.dir/src/game_interface.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/binary.dir/src/game_interface.cpp.o -c /home/humble_d/Projects/Sandbox/sample_cmake/src/game_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/binary.dir/src/game_interface.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/binary.dir/src/game_interface.cpp.o -c /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/src/game_interface.cpp
 
 CMakeFiles/binary.dir/src/game_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/binary.dir/src/game_interface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/humble_d/Projects/Sandbox/sample_cmake/src/game_interface.cpp > CMakeFiles/binary.dir/src/game_interface.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/src/game_interface.cpp > CMakeFiles/binary.dir/src/game_interface.cpp.i
 
 CMakeFiles/binary.dir/src/game_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/binary.dir/src/game_interface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/humble_d/Projects/Sandbox/sample_cmake/src/game_interface.cpp -o CMakeFiles/binary.dir/src/game_interface.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/src/game_interface.cpp -o CMakeFiles/binary.dir/src/game_interface.cpp.s
 
 CMakeFiles/binary.dir/src/game_interface.cpp.o.requires:
 
@@ -145,7 +145,7 @@ binary: CMakeFiles/binary.dir/build.make
 binary: libs/Logger/liblogger.a
 binary: ../libs/Randomize/librandomize.a
 binary: CMakeFiles/binary.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/humble_d/Projects/Sandbox/sample_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable binary"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable binary"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/binary.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -164,6 +164,6 @@ CMakeFiles/binary.dir/clean:
 .PHONY : CMakeFiles/binary.dir/clean
 
 CMakeFiles/binary.dir/depend:
-	cd /home/humble_d/Projects/Sandbox/sample_cmake/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/humble_d/Projects/Sandbox/sample_cmake /home/humble_d/Projects/Sandbox/sample_cmake /home/humble_d/Projects/Sandbox/sample_cmake/build /home/humble_d/Projects/Sandbox/sample_cmake/build /home/humble_d/Projects/Sandbox/sample_cmake/build/CMakeFiles/binary.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build /mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/build/CMakeFiles/binary.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/binary.dir/depend
 

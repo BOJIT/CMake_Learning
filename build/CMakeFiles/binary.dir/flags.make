@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/humble_d/Projects/Sandbox/sample_cmake/./include -I/home/humble_d/Projects/Sandbox/sample_cmake/./src -I/home/humble_d/Projects/Sandbox/sample_cmake/./libs/Logger/include -I/home/humble_d/Projects/Sandbox/sample_cmake/./libs/Randomize/include 
+CXX_INCLUDES = -I/mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/./include -I/mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/./src -I/mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/./libs/Logger/include -I/mnt/c/Users/james/Documents/LearnCMake/sample_cmake/sample_cmake/./libs/Randomize/include 
 
