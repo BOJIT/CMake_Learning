@@ -1,2 +1,5 @@
 #Gitignore VSCode C++ Archiving
 .vscode/
+
+#Build Files
+build/
