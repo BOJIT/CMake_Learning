@@ -1,4 +1,4 @@
-#include <sample_cmake/game_interface.h>
+#include <CMake_Learning/game_interface.h>
 
 int main()
 {

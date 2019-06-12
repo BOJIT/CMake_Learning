@@ -1,5 +1,5 @@
 #include <game_engine.h>
-#include <sample_cmake/game_interface.h>
+#include <CMake_Learning/game_interface.h>
 
 void GameInterface::play(int num)
 {
