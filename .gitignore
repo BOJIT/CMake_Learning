@@ -1,8 +1,9 @@
 #Gitignore VSCode C++ Archiving
-.vscode/
+.vscode/ipch/
 
 #Build Files
-build/
+build/local/
+build/remote/
 
 #output binaries
 bin/
