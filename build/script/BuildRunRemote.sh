@@ -4,4 +4,6 @@ cd ./build/remote
 cmake -DCMAKE_TOOLCHAIN_FILE=../../aarch64.cmake ../../
 make
 cd ../..
-echo "--------SSH HERE--------"
+echo "--------FILE TRANSFER--------"
+cd ./bin/aarch64_Linux
+scp binary.aarch64.Linux rock64@192.168.1.150:
